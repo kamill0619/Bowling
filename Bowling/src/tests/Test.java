@@ -173,9 +173,6 @@ class Test {
 		assertEquals(290, bowlingGame.calculateScore());
 		
 		bowlingGame.roll(10);
-		assertEquals(10, bowlingGame.getResults(10, 1));
-		assertEquals(100, bowlingGame.calculateBasicScore());
-		assertEquals(200, bowlingGame.calculateBonusScore());
 		assertEquals(300, bowlingGame.calculateScore());
 	}
 	
